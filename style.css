@@ -1,0 +1,128 @@
+header{
+    width: 100%;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 20px #45f3ff;
+    padding-top: 5px;
+    z-index: 1000;
+   
+
+}
+#h1Imagem{
+    font-size: 40px;
+    color:blueviolet;    
+}
+.image-text-container {
+    position: relative; /* Establish a positioning context */
+    display: flex; /* Allow stacking elements vertically */
+    justify-content: center; /* Center elements horizontally */
+    align-items: left; /* Center elements vertically */
+  }
+  
+  .imagemCenter {
+    width: 100%; /* Adjust image width as needed */
+    height: auto; /* Maintain image aspect ratio */
+  }
+  
+  .image-text {
+    position: absolute; /* Position text on top of the image */
+    top: 50%; /* Center text vertically */
+    left: 50%; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Offset text to compensate for absolute positioning */
+    color: white; /* Adjust text color for better contrast */
+    font-size: 20px; /* Adjust font size as needed */
+    text-align:left; /* Center text alignment */
+  }
+
+body{
+    height: 200vh;
+    width: 100%;
+    background-color: #0d0d0d;
+   
+}
+.centralizar {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #45f3ff;
+    margin-top: 20px;
+}
+ul a{
+ margin-left: 1rem;
+ transition: 1s;
+
+}
+ul a:hover{
+    font-size: 1.5rem;
+    color:blueviolet;
+
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+header nav ul li {
+    
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.logo{
+    font-size: 2rem;
+    border-radius: 50%;
+}
+header nav a {
+    text-decoration: none;
+    color: aliceblue;    
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 1s, color 1s;
+}
+
+header nav a.destacarPagina {
+    color:blueviolet;
+    font-weight: bold;
+    padding: 2px;
+}
+
+
+
+.banner {
+    text-align: center;
+    padding: 50px;
+    background-image: url('imagens/vrOculos.png');
+    background-size: cover;
+    color: #fff;
+}
+
+.sobre, .destaques {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.sobre h2, .destaques h2 {
+    color: whitesmoke;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #242424;
+    color: #fff;
+}
+p,.liHome{
+    color: whitesmoke;
+}
